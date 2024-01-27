@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #616161;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li:first-child a {
+    pointer-events: none; 
+    color: #f77e59; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d2a37b; 
+}
+
+.hero-section {
+    height: 600px; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/hotel.jpg');
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: clamp(2em, 8vw, 4em);
+    margin: 20px 20px;
+    font-family: 'Kaushan Script';
+}
+
+.hero-content h2 {
+    font-size: clamp(1em, 3vw, 1.4em);
+    margin: 30px 20px;
+    font-weight: normal;
+}
+
+.about-section {
+    padding: 40px;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    color: #c1451f; 
+    font-size: 1.7em; 
+}
+
+.about-section img {
+    max-width: clamp(20%, 30%, 50%); 
+    height: auto;
+    margin-bottom: 20px; 
+    float: left; 
+    margin-right: 20px; 
+}
+
+.about-section p {
+    line-height: 1.5; 
+    font-size: 1em;
+}
+
+
